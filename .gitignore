@@ -1,0 +1,21 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.bak
+*~
+
+# Editor folders
+.vscode/
+.idea/
+
+# Python cache (if scripts are added later)
+__pycache__/
+*.py[cod]
+
+# Keep evidence and screenshot folders in Git even when empty
+!evidence/**/.gitkeep
+!screenshots/.gitkeep
